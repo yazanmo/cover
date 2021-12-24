@@ -1,0 +1,160 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+
+.order{
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.order-history{
+    color: blue;
+    margin-left: 30px;
+}
+
+.placed{
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.pending{
+    color: chocolate;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 64% 24%;
+    gap: 10%;
+}
+
+.contain{
+    display: grid;
+    grid-template-columns: 36% 13% 20% 22% 9%; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 8px;
+    width:100%;
+    padding: 10px;
+    margin-left: 30px;
+    border-bottom: 0.1px solid rgb(224, 224, 224) ;  
+
+}
+    
+
+.asd p{
+    color: grey;
+}
+
+.asd{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 8px;
+    width: 75%;
+    background-color: rgb(247, 247, 247);
+}
+
+.adress{
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.ddd{
+    margin-top: 10px;
+  border: 0.1px solid rgb(224, 224, 224) ;  
+
+}
+
+.product{
+    display: flex;
+}
+
+.total{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 195%;
+    width: 100%;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    
+}
+
+.btn1{
+    background-color: white;
+    color: rgb(63, 63, 214);
+    border: 2px solid rgb(63, 63, 214);
+    border-radius: 30px;
+    width: 250px;
+}
+
+.cancel{
+    color: red;
+    font-weight: bold;
+    margin-left: 19%;
+}
+
+.tot{
+    font-weight: bold;
+}
+
+.material-icons{
+    font-family: 'Material Icons';
+    position: absolute;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* @media (min-width: 320px) and (max-width: 768px) {
+    .contain{
+        display: flex;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 8px;
+        width: 75%;
+        padding: 10px;
+        margin-left: 30px;
+    }
+    .asd{
+       
+        flex-direction: column;
+        padding: 8px;
+        height: auto;
+       
+        background-color: rgb(247, 247, 247);
+        
+    
+    }
+
+    .total{
+        display: flex;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 8px;
+        width: 75%;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+  } */
